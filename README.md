@@ -1,5 +1,5 @@
  # Mini E-Learning Platform
-
+![mini elearning](<mini E Learning.jpg>)
 ## Overview
 
 This is a prototype of a mini e-learning platform designed to demonstrate core functionalities of an online learning system. Built using vanilla HTML, CSS, and JavaScript, it provides a clean, responsive interface for users to explore courses, track progress, and manage their learning journey.
