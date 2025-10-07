@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Courses - Mini E-Learning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📚 Welcome, <span id="user-name"></span>!</h1>
+  <button onclick="logout()" class="logout">Logout</button>
+
+  <div class="search-container">
+    <input type="text" id="search" placeholder="Search courses..." onkeyup="renderCourses()">
+  </div>
+
+  <div class="category-filter">
+    <label for="category">Filter by Category:</label>
+    <select id="category" onchange="renderCourses()">
+      <option value="">All</option>
+      <option value="Web Development">Web Development</option>
+      <option value="Programming">Programming</option>
+      <option value="Data Science">Data Science</option>
+    </select>
+  </div>
+
+  <div id="course-list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
